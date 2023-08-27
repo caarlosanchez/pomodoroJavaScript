@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+.panel {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 1rem;
+    position: absolute;
+}
+
+.panelButton {
+    display: flex;
+
+    width: 10rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.panelButton1 {
+    display: flex;
+    gap: 2rem;
+    border-radius: 10rem;
+    background-color: rgba(0, 0, 0, 0.16);
+    width: 10rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.timerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.minutes {
+    background-color: rgba(95, 160, 92, 0.764);
+    width: 50vw;
+    height: 100vh;
+}
+
+.random {
+    background-color: rgb(163, 28, 28);
+
+    width: 50vw;
+    height: 100vh;
+}
+.random p {
+    font-size: 37rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.656);
+}
+
+.random1 {
+    background-color: rgba(161, 32, 32, 0.764);
+    width: 50%;
+    height: 100%;
+}
+.random1 p {
+    font-size: 37rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.656);
+}
+
+.minutes p {
+    font-size: 37rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.656);
+}
+.seconds {
+    background-color: rgb(95, 160, 92);
+    width: 50%;
+    height: 100%;
+}
+
+.seconds p {
+    font-size: 37rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.656);
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+
+    gap: 2rem;
+}
+.controls button {
+    border: none;
+    background-color: transparent;
+    color: rgba(249, 249, 249, 0.522);
+    cursor: pointer;
+    font-size: 4rem;
+}
+.controls #reset {
+    border: none;
+    background-color: transparent;
+    color: rgba(249, 249, 249, 0.522);
+    cursor: pointer;
+    font-size: 4rem;
+}
+
+.workFinal {
+    background-color: rgb(95, 160, 92);
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem 0 0 2rem;
+}
+
+.breakFinal {
+    background-color: transparent;
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 2rem 2rem 0;
+}
+
+.workFinal1 {
+    background-color: transparent;
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem 0 0 2rem;
+}
+
+.breakFinal1 {
+    background-color: rgb(163, 28, 28);
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 2rem 2rem 0;
+}

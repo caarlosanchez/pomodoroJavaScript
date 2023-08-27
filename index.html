@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <script
+            src="https://kit.fontawesome.com/9736db2976.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>Pomodoro</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="panel">
+            <div class="panelButton">
+                <div id="workFinal1" class="workFinal">
+                    <p id="work" class="acvtive">Work</p>
+                </div>
+                <div id="breakFinal1" class="breakFinal">
+                    <p id="break" class="desactive">Break</p>
+                </div>
+            </div>
+        </div>
+        <div class="timerContainer">
+            <div id="random" class="minutes">
+                <p id="minutes"></p>
+            </div>
+
+            <div id="random1" class="seconds">
+                <p id="second"></p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="start"><i class="fa-solid fa-play"></i></button>
+            <a id="reset" href="/">
+                <i class="fa-solid fa-arrow-rotate-left"></i
+            ></a>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
